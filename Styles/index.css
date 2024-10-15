@@ -1,0 +1,122 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff; /* Light grey background */
+    color: #333; /* Dark grey text color */
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.container {
+    text-align: center;
+    top: 80px;
+    padding: 50px;
+}
+
+.center-image {
+    width: 200px; /* Adjust the size as needed */
+    height: auto;
+}
+
+.hidden {
+    display: none;
+}
+
+.form-container {
+    background-color: #ffffff; /* White background for the form */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Shadow effect */
+    padding: 20px;
+    width: 300px; /* Fixed width for the form */
+    margin: 50px auto; /* Center the div */
+    text-align: center;
+}
+
+.help-image {
+    width: 100px; /* Adjust the size as needed */
+    height: auto;
+}
+
+button {
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: #FFD700; /* Yellow background */
+    color: #333; /* Dark grey text */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #FFC300; /* Darker yellow on hover */
+}
+
+.dark-theme {
+    background-color: #333; /* Dark grey background */
+    color: #f0f0f0; /* Light grey text */
+}
+
+.dark-theme button {
+    background-color: #FFD700; /* Yellow background */
+    color: #333; /* Dark grey text */
+}
+
+.dark-theme button:hover {
+    background-color: #FFC300; /* Darker yellow on hover */
+}
+
+/* Form input styles */
+input {
+    width: 100%; /* Full width inputs */
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px; /* Rounded corners */
+    box-sizing: border-box; /* Include padding and border in width */
+}
+
+
+
+
+
+
+.dashboard-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: white; /* White background for the dashboard */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Shadow effect */
+    width: 300px; /* Fixed width for the dashboard */
+}
+
+.user-info {
+    text-align: center;
+}
+
+.avatar {
+    width: 100px; /* Size of the avatar */
+    height: auto;
+    border-radius: 50%; /* Circle shape */
+    margin-bottom: 10px; /* Space below the avatar */
+}
+
+#user-initial {
+    font-size: 24px; /* Size of the user's initial */
+    font-weight: bold; /* Bold text */
+    cursor: pointer; /* Pointer cursor for clickable */
+    position: absolute; /* Positioned in the right corner */
+    top: 10px; /* Adjust as needed */
+    right: 10px; /* Adjust as needed */
+    background-color: #FFD700; /* Yellow background for the initial */
+    border-radius: 50%; /* Circle shape */
+    width: 40px; /* Size of the initial circle */
+    height: 40px; /* Size of the initial circle */
+    display: flex; /* Centering text */
+    align-items: center; /* Centering vertically */
+    justify-content: center; /* Centering horizontally */
+    color: #333; /* Dark grey text */
+}
